@@ -1,0 +1,18 @@
+mkdir GitDemo
+cd GitDemo
+git init
+
+echo "Welcome to GitDemo!" > welcome.txt
+
+git status
+
+git add welcome.txt
+git commit
+
+git remote add origin https://gitlab.com/YourUserName/GitDemo.git
+
+git branch -M main     
+
+git push -u origin main
+
+

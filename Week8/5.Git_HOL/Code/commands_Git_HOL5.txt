@@ -1,0 +1,18 @@
+git checkout main         
+git status
+
+git branch -a
+
+git pull origin main 
+
+git checkout -b GitCleanupBranch
+
+echo "Cleanup completed" > cleanup.txt
+git add cleanup.txt
+git commit -m "Added cleanup.txt"
+
+git push -u origin GitCleanupBranch
+
+
+git checkout main
+git pull origin main

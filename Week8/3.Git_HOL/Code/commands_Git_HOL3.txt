@@ -1,0 +1,9 @@
+git branch GitNewBranch
+git checkout GitNewBranch
+
+
+git branch -a
+
+echo "Hello from new branch" > feature.txt
+git add feature.txt
+git commit -m "Add feature.txt on GitNewBranch"

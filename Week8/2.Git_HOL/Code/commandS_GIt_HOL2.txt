@@ -1,0 +1,14 @@
+echo "*.log"  > .gitignore
+echo "log/" >> .gitignore
+
+touch debug.log
+mkdir log && touch log/app.log
+echo "print('hello')" > code.py
+
+
+git status      
+git add code.py
+git commit -m "Added code file"
+
+git push origin main
+
